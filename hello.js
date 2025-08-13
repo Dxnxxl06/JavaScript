@@ -22,10 +22,10 @@ function sumar(a,b) {
 }
 
 //Llamar a la funcion sumar
-console.log(sumar(1,10)); console.log(sumar(20,2))
+console.log(sumar(1,10)); console.log(sumar(20,2));
 
 function mostrar(any) {
-    console.log(any)
+    console.log(any);
 }
 
 //Operadores matematicos
@@ -34,7 +34,7 @@ mostrar(5-3);
 mostrar(5*3);
 mostrar(5/3);
 mostrar(5%3);
-mostrar(5**3)
+mostrar(5**3);
 let number = 5;
 // Incremento o Decrementos
 // -- o ++ -> Inmediata
@@ -49,3 +49,29 @@ mostrar(number*=2);
 mostrar(number/=5);
 mostrar(number%=2);
 mostrar(number/0);
+
+//OPeradores de Igualdad
+mostrar("Igualdad: " + (5 == '5'));
+mostrar("Estrictamente Igual: " + (5 === '5'));
+mostrar("Desigualdad: " + (5 != '5'));
+mostrar("Desigualdad Estricta: " + (5 !== '5'));
+mostrar("Mayor: " + (5 > '4'));
+mostrar("Mayor igual: " + (5 >= '4'));
+mostrar("Menor: " + (5 < '4'));
+mostrar("Menor igual: " + (5 <= '4'));
+mostrar("Concatenar: " + (5 + '4'));
+let a,b,c ;
+a = b = c = 1 + 20;
+mostrar(a);
+mostrar(b);
+mostrar(c);
+
+//Operadores Logicos
+mostrar("Operador Y logico(AND): " + (5 == 5 && true));
+mostrar("Operador Y logico(AND): " + (5 != 5 && true));
+
+mostrar("Operador O logico(OR): " + (5 >= 5 || 2 < 6));
+mostrar("Operador O logico(OR): " + (5 > 5 || 2 < 6));
+
+mostrar("Operador NO logico(NOT): " + ! (5 >= 5 ));
+mostrar("Operador NO logico(NOT): " + ! (5 > 5 ));
