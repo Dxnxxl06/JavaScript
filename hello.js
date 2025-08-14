@@ -75,3 +75,4 @@ mostrar("Operador O logico(OR): " + (5 > 5 || 2 < 6));
 
 mostrar("Operador NO logico(NOT): " + ! (5 >= 5 ));
 mostrar("Operador NO logico(NOT): " + ! (5 > 5 ));
+
