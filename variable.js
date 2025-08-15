@@ -60,7 +60,7 @@ const ROL_USUARIO_PLATAFORMA = "Estudiante";
 //arrays
 let caidas = [
     {
-        fecha: '20-08-10',
+        fecha: '0-08-10',
         damages: 'mental'
     },
     {
